@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+ body{
+    background:linear-gradient(to right, #5b0473, #7112e6);
+ }
+ .navbar{
+    display:flex;
+    background-color: rgb(219, 211, 211);
+    padding:5px;
+    border-radius: 5px;
+    justify-content: space-around;
+ }
+
+ li{
+    cursor: pointer;
+ }
+.menu{
+    padding:5px;
+    position:relative;
+    gap: 40px;
+    display:flex;
+    list-style: none;
+}
+
+.dropdown{
+    top: 100%;
+    background: rgb(202, 199, 199);
+    list-style: none;
+    position: absolute;
+    padding:2px;
+    min-width: 150px;
+    left:100px;
+    display: none;
+    border-radius: 5px;
+}
+.dropdown li{
+    padding:10px;
+}
+.dropdown li:hover{
+    background: rgb(255, 255, 255);
+}
+
+/* for services navbar link */
+#services:hover .dropdown{
+    display: inline-block;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,101 @@
+body{
+    margin: 15px;
+    box-sizing: border-box;
+}
+#box{
+    height: 550px;
+    width: 800px;
+    background-color: rgb(93, 77, 77);
+    display: block;
+}
+#box #first{
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 250px;
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(251, 251, 252);
+    float: left;
+
+}
+#box #second{
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    height: 250px;
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(251, 251, 252);
+   
+}
+#box #third{
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    height: 250px;
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(251, 251, 252);
+   
+}
+#box #fourth{
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    height: 250px;
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(251, 251, 252);
+   
+}
+#box #fifth{
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    height: 250px;
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(251, 251, 252);
+   
+}
+#box #sixth{
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    height: 250px;
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(251, 251, 252);
+   
+}
+#box #seventh{
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    height: 250px;
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(251, 251, 252);
+    
+   
+}
+#box #eighth{
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    height: 250px;
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(251, 251, 252);
+   
+}
+img{
+    height: 200px;
+    width: 100%;
+
+}
+p{
+    text-align: center;
+}
+

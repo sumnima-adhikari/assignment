@@ -1,0 +1,11 @@
+*
+{
+    padding: 0.5;
+    margin: auto;
+    box-sizing: border-box;
+}
+tr,td{
+    background-color:beige;
+    text-align: center;
+    vertical-align: middle;
+}

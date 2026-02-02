@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+}
+#discs,
+#squares,
+#circles,
+#decimals,
+#zeros,
+#alphas {
+    width: 30%;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+
+#discs h1,
+#squares h1,
+#circles h1,
+#decimals h1,
+#zeros h1,
+#alphas h1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style-position: inside;
+    font-size: 14px;
+    line-height: 1.5;
+}

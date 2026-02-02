@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #4c566a;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    
+   
+}
+.logo {
+    margin-bottom: 20px;
+    display: flex;
+    vertical-align: middle;
+ }
+ .image {
+    height: 78px;
+    width: 78px;
+}       
+
+h2 {
+margin-bottom: 20px;
+color: #0d0d0e;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+color: #333;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.row .form-group {
+    flex: 1;
+}
+
+.gender-options {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.gender-options label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+.required::after {
+    content: "*";
+    color: rgb(9, 9, 11);
+    margin-left: 3px;
+}
+.button-group {
+    margin-top: 15px;
+    text-align: right;
+    display: flex;
+    gap: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;   
+}
+h3 {
+    margin-top: 30px;
+    margin-left: 20px;  
+}
+
+.submit-btn {
+    background-color: #1a73e8;
+    color: white;
+}
+
+.back-btn {
+    border: 1px solid blue;
+    color:blue;
+    margin-right: 10px;
+    background: none;
+}
+.back-btn:hover {
+    background: #1a73e8;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .row {
+        flex-direction: column;
+}
+}

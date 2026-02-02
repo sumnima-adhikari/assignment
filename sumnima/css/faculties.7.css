@@ -1,0 +1,22 @@
+body{
+    background-color:darkkhaki;
+}
+.box{
+    height: auto;
+    margin: auto;
+    width: 50%;
+    background-color: blue;
+    border-radius: 8px;
+}
+.manage{
+    background-color:cadetblue;
+    border: 2px solid black;
+}
+.Sci{
+    background-color: brown;
+    border: 2px solid black;
+}
+.Hum{
+    background-color: coral;
+    border: 2px solid black;
+}
