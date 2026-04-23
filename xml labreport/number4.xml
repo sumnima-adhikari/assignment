@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/sherpa%20trade%20ilam/Desktop/xml%20labreport/number4.xsd">
+<book ISBN="n234">
+<title>Web development</title>
+<author title="mr" phone="9854678443" email="suren@gmail.com">
+<first_name>Suren</first_name>
+<middle_name>Kumar</middle_name>
+<last_name>Rai</last_name>
+</author>
+<author title="ms" phone="9854989894" email="menuka@gmail.com">
+<first_name>Menuka</first_name>
+<middle_name>Maya</middle_name>
+<last_name>Basnet</last_name>
+</author>
+<author title="mr" phone="9884934566" email="arun@gmail.com">
+<first_name>Arun</first_name>
+<middle_name>Bahadur</middle_name>
+<last_name>Shrestha</last_name>
+</author>
+<page_no>445</page_no>
+<price currency="NPR">550</price>
+</book>
+</books>

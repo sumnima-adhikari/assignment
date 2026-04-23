@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/sherpa%20trade%20ilam/Desktop/xml%20labreport/number5.xsd">
+<student roll="d13">
+<name>
+<first_name>Bijina</first_name>
+<middle_name>Chettri</middle_name>
+<last_name>Khattri</last_name>
+</name>
+<email>bijina@gmail.com</email>
+<phone>9850012575</phone>
+<address type="permanent">Ilam</address>
+<address type="temporary">maitidevi</address>
+<DOB type="AD">2006-08-09</DOB>
+<DOB type="BS">2063-04-25</DOB>
+</student>
+</students>

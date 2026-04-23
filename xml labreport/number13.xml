@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/sherpa%20trade%20ilam/Desktop/xml%20labreport/number13.xsd">
+<patient>
+<name>
+<first>Mary</first>
+<middle>Elasia</middle>
+<Last>Warner</Last>
+</name>
+<patientNumber>12300</patientNumber>
+<doctorname>Dr.Archie</doctorname>
+<disease>Hypertension</disease>
+<disease>Stones</disease>
+<consultationCharge>2000</consultationCharge>
+<labTests>
+<test>CT scan</test>
+<test>Urine Analysis</test>
+<test>Blood Sugar Level</test>
+</labTests>
+</patient>
+</hospital>

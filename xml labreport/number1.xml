@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/sherpa%20trade%20ilam/Desktop/xml%20labreport/number1.xsd">
+<Title>A Good Girls Guide To Murder</Title>
+<Author>Holly Jackson</Author>
+<ISBN>978-1984896391</ISBN>
+<Publisher>Electric Monkey</Publisher>
+<edition>Five</edition>
+<Price>800</Price>
+</book>

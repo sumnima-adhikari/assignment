@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/sherpa%20trade%20ilam/Desktop/xml%20labreport/number17.xsd">
+<salesman>
+<name title="person">
+<first>Ram</first>
+<middle>Bahadur</middle>
+<last>Thapa</last>
+</name>
+<phone type="personal">9823456683</phone>
+<area>Kathmandu</area>
+<records>
+<record>
+<product id="p101">
+<sku>gurde</sku>
+<product_name>Scrub</product_name>
+</product>
+<quantity>12</quantity>
+<price currency="NPR">350</price> 
+<date type="BS">2082-10-10</date> 
+</record>
+<record>
+<product id="102">
+<sku>Rode</sku>
+<product_name>Lip Gloss</product_name>
+</product>
+<quantity>40</quantity>
+<price currency="INR">50</price>
+<date type="AD">2027-01-01</date>
+</record>
+</records>
+</salesman>
+<salesman>
+<name title="person2">
+<first>Rita</first>
+<last>Rai</last>
+</name>
+<phone type="work">9534875387</phone>
+<area>Bhaktapur</area>
+<records>
+<record>
+<product id="p103">
+<sku>Yuki</sku>
+<productName>Eyeliner</productName>
+</product>
+<quantity>20</quantity>
+<price currency="INR">300</price>
+<date type="BS">2082-03-19</date>
+</record>
+</records>
+</salesman>
+</sales>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<university xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/sherpa%20trade%20ilam/Desktop/xml%20labreport/number6.xsd">
+    <school sid="s1">
+        <name>Green Valley Academy</name>
+        <location>Malapath</location>
+        <staffCollection>
+            <staff stId="st8">
+                <name>Chintamani</name>
+                <category>general</category>
+                <address>
+                    <street>Main street</street>
+                    <suburb>Narayansthan</suburb>
+                    <postcode>55770</postcode>
+                </address>
+                <address>
+                    <street>23 Zero Road</street>
+                    <suburb>Zero</suburb>
+                    <postcode>43699</postcode>
+                </address>
+            </staff>
+            <staff stId="st00">
+                <name>Manku Shrestha</name>
+                <title>Professor</title>
+                <category>academic</category>
+                <address>
+                    <street>2nd street</street>
+                    <suburb>Naya Bazar</suburb>
+                    <postcode>33600</postcode>
+                </address>
+            </staff>
+            <staff stId="st01">
+                <name>Michael Gurung</name>
+                <title>Lab Professor</title>
+                <category>technical</category>
+                <address>
+                    <street>West street</street>
+                    <suburb>Bhanudhoka</suburb>
+                    <postcode>24600</postcode>
+                </address>
+            </staff>
+        </staffCollection>
+        <subjectCollection>
+            <subject subId="sub6">
+                <name>Web Technology</name>
+                <description>HTML and CSS</description>
+                <capacity>60</capacity>
+                <taughtBy staffRef="st00"/>
+            </subject>
+            <subject subId="sub8">
+                <name>Science</name>
+                <description>Human Anatomy</description>
+                <capacity>40</capacity>
+                <taughtBy staffRef="st01"/>
+            </subject>
+        </subjectCollection>
+    </school>
+</university>
